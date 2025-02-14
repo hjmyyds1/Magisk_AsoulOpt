@@ -1,0 +1,105 @@
+19:07:13 I initDevice 8.4
+19:07:13 D initDevice MANUFACTURER:Xiaomi DEVICE:corot MODEL:23078RKD5C BRAND:Redmi BOARD:corot HARDWARE:mt6985 SDK_INT:35
+19:07:13 E CameraId: 0 CameraRawSizes: [4096x3072]
+19:07:13 E CameraId: 1 CameraRawSizes: [2592x1944]
+19:07:13 E CameraId: 2 CameraRawSizes: [3280x2464]
+19:07:13 E CameraId: 3 CameraRawSizes: [1600x1200]
+19:07:13 E CameraId: 4 CameraRawSizes: [4096x3072]
+19:07:13 E CameraId: 5 CameraRawSizes: [4096x3072]
+19:07:13 E CameraId: 6 CameraRawSizes: [4096x3072]
+19:07:13 E GetFilteredCameraIDs 6,2,3,1
+19:07:13 I Back  Main Lens Id 6
+19:07:13 I Front Main Lens Id 1
+19:07:13 I AGC initMenuValue
+19:07:13 I AGC initInfoPage
+19:07:13 I Device Interface CameraID:6 17 => taimen => bluejay
+19:07:13 I AGC experimentalKeys 0
+19:07:13 E getZslFrameCount 7
+19:07:13 E getZslFrameCount 9
+19:07:13 E getZslFrameCount 12
+19:07:13 E getZslFrameCount 20
+19:07:13 D getPortraitZoomValue 1.5 1.5
+19:07:13 I setDeveloperSettingsNonPixel
+19:07:13 I StreamConfigurationMap: 9; SDK: 35
+19:07:13 >>>>BY SJS >>>>: loadLibrary:gcastartup
+19:07:13 >>>>BY SJS >>>>: load gcam library:CRshapreV15联发科天玑专用(推荐_拍照体验好成像速度快，更通透降噪更好).so
+19:07:13 D focusValue: 10
+19:07:13 W getViewfinderFormat 35
+19:07:14 W getImageReaderFormat ImageReaderFormat{ImageFormat=RAW_SENSOR, Size=4096x3072}
+19:07:14 I IsSupportLEVEL3 CameraID:6 true
+19:07:14 W microVideo width 1920
+19:07:14 W microVideo height 1080
+19:07:14 I Non-Pixel [RAW_HDRPLUS, YUV_ANALYSIS, VIEWFINDER]
+19:07:14 I StreamConfigurationMap: 5; SDK: 35
+19:07:14 I App returns to the foreground
+19:07:14 I StreamConfigurationMap: 6; SDK: 35
+19:07:14 D getStreamConfig sMode:0 key:pref_opmode_photo_key value:0
+19:07:14 I StreamConfigurationMap: 3; SDK: 35
+19:07:14 D getStreamMode 0
+19:07:14 D Hardware Level: LEVEL_3(3) => LEVEL_3(3)
+19:07:14 I Device Interface CameraID:6 17 => taimen => bluejay
+19:07:14 I StreamConfigurationMap: 1; SDK: 35
+19:07:14 I Device Interface CameraID:6 17 => taimen => bluejay
+19:07:14 W 
+19:07:14 W MetadataConverter CameraId: 0
+19:07:14 D SENSOR_INFO_PHYSICAL_SIZE >= width:8.77 height:6.14
+19:07:14 I HDR+ Model CameraID:6 taimen => raven
+19:07:14 W MetadataConverter SensorId: 0
+19:07:14 I StreamConfigurationMap: 4; SDK: 35
+19:07:14 I StreamConfigurationMap: 2; SDK: 35
+19:07:14 W MetadataConverter end
+19:07:14 W 
+19:07:14 W MetadataConverter CameraId: 1
+19:07:14 D SENSOR_INFO_PHYSICAL_SIZE >= width:4.17 height:3.19
+19:07:14 I HDR+ Model CameraID:6 taimen => raven
+19:07:14 W MetadataConverter SensorId: 0
+19:07:14 W MetadataConverter end
+19:07:14 D setCameraCaptureSession: 6
+19:07:14 I StreamConfigurationMap: 0; SDK: 35
+19:07:14 D HdrPlusSession Created
+19:07:14 D setCameraCaptureSession: 6
+19:07:14 D setCameraCaptureSession: 6
+19:07:14 W Focus-Tracking in Photo/Video mode true false
+19:07:14 W Focus-Tracking in Photo/Video mode true false
+19:07:14 D getPortraitZoomValue 1.5 1.5
+19:07:14 E ZoomUI onProgressChanged 0
+19:07:14 E ZoomUI onProgressChanged 1
+19:07:14 E setSMode PHOTO
+19:07:14 D Switch Front false
+19:07:14 E ZoomUI onProgressChanged 0
+19:07:14 D JPGQuality ikg->a() 97
+19:07:15 D JPGQuality bgm->clinit() 97
+19:07:15 D JPGQuality ikg->a() 97
+19:07:26 I StreamConfigurationMap: 7; SDK: 35
+19:07:27 W startShotCaptureInternal
+19:07:27 D new ShotParams
+19:07:27 D setup
+19:07:27 D createAeShotParams
+19:07:27 D portraitRelighting
+19:07:27 D profile
+19:07:27 D DCI-P3 false
+19:07:27 D flash
+19:07:27 D tempBinning: true
+19:07:27 D wbSource
+19:07:27 D sabre
+19:07:27 D DevSettings 0
+19:07:27 D DevSettings -> (merge 0) -> wienerForce false
+19:07:27 D DevSettings -> (merge 1) -> sabreAllowed false
+19:07:27 D DevSettings -> (merge 2) -> Shasta false
+19:07:27 D DevSettings -> (merge 3) -> spatialRgbForce false
+19:07:27 D Merge Method 0
+19:07:27 D Allow Sabre false
+19:07:27 D Spatial RGB false
+19:07:27 D shasta
+19:07:27 D shastaZSL false
+19:07:27 D ShotParams_shasta_force_set false
+19:07:27 D setShasta rawFormat = RAW_SENSOR(32)
+19:07:27 D finalize
+19:07:27 E getFrameCount pref_frame_count_key: -1=>10
+19:07:28 D JPGQuality ikg->a() 97
+19:07:28 D JPGQuality hqi->run() 97
+19:07:28 D JPGQuality ikg->a() 97
+19:07:29 D JPGQuality JpegUtilNative->a() 97
+19:07:30 D JPGQuality ikg->a() 97
+19:07:38 D setCameraCaptureSession: 6
+19:07:39 I App enter the background
